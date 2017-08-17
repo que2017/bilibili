@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+
+/*header top*/
+	#header .h-top .h-t-container
+	{
+		width:1000px;
+	}
+	#header .h-middle
+	{
+		width:1000px;
+	}
+
+/*main*/
+	#main
+	{
+		width:980px;
+	}
+ /*main top*/
+	#main .m-nav .m-navlist>li
+	{
+		margin-right:0px;
+	}
+	#main .m-nav .m-navlist>li:nth-child(1)
+	{
+		margin-right:0px;
+	}
+ /*main stair nav*/
+	#stairsWrap
+	{
+		width:980px;
+	}
+	#stairs
+	{
+		margin-left:990px;
+	}
+ /*main banner*/
+	#main .banner .m-ban-right
+	{
+		width:540px;
+	}
+	#main .banner .m-ban-right>ul>li:nth-child(7),
+	#main .banner .m-ban-right>ul>li:nth-child(8)
+	{
+		display:none;
+	}
+ /*main popularize*/
+	#main .popularize
+	{
+		width:980px;
+	}
+	#main .popularize ul.popular-all li:nth-child(5)
+	{
+		display:none;
+	}
+ /*main live*/
+	#main .m-live
+	{
+		width:980px;
+	}
+	#main .m-live .m-live-left
+	{
+		width:720px;
+	}
+	#main .m-live .m-live-top
+	{
+		width:700px;
+	}
+ /*main public*/
+	#main .m-s-left
+	{
+		width:720px;
+	}
+	#main .m-s-left .m-s-l-top
+	{
+		width:700px;
+	}
+
+	#main .public-up-left
+	{
+		width:720px;
+	}
+	#main .public-up-left .top>ul
+	{
+		width:448px;
+	}
+	#main .public-up-left .top li.select
+	{
+		width:56px;
+	}
+	#main .public-up-left .elembox
+	{
+		width:700px;
+	}
+	#main .public-up-left .elembox .element li:nth-child(4)
+	{
+		margin-top:36px;
+	}
+ /*main special-recom*/
+	#main .m-specialRecom .m-sR-left
+	{
+		width:720px;
+	}
+	#main .m-specialRecom .m-sR-left .listwrap li.recomlist:nth-child(5)
+	{
+		display:none;
+	}
+
+/*footer*/
+	#footer .f-container
+	{
+		width:980px;
+	}
+	#footer .f-container .f-c-up li.list-link
+	{
+		width:100px;
+	}
+	#footer .f-container .f-c-up .up-bili
+	{
+		width:325px;
+	}
+	#footer .f-container .f-c-up .up-portal
+	{
+		width:300px;
+		padding:0 24px;
+	}
+	#footer .f-container .f-c-up .up-contact
+	{
+		width:305px;
+	}
+	#footer .f-container .f-c-down .licence
+	{
+		width:820px;
+	}
+
+

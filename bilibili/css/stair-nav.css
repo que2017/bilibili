@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+
+
+/*stair-nav*/
+	#main .stair-nav
+	{
+		width:100%;
+		margin-bottom:30px;
+	}
+
+	#stairsWrap
+	{
+		width:1160px;
+		height:0px;
+		margin:0 auto;
+	}
+	#stairsWrap .backcover
+	{
+		position:fixed;
+		z-index:90;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.5);
+		display:none;
+	}
+	#stairs
+	{
+		position:fixed;
+		z-index:0;
+		top:235px;
+		width:48px;
+		margin-left:1170px;
+	}
+	#stairs .sortcover
+	{
+		position:absolute;
+		top:-16px;
+		left:-130px;
+		width:200px;
+		height:686px;
+		border-radius:5px;
+		background:rgba(255,255,255,0.8);
+		display:none;
+	}
+	#stairs .sortcover .img
+	{
+		position:absolute;
+		top:16px;
+		left:12px;
+		width:117px;
+		height:333px;
+		background:url(../images/side-nav.png);
+	}
+	#stairs .stair-ul
+	{
+		position:relative;
+		width:48px;
+		height:480px;
+		border:1px solid #e5e9ef;
+		border-radius:5px 5px 0 0;
+		background:#f6f9fa;
+		overflow:hidden;
+	}
+	#stairs .stairlist
+	{
+		position:absolute;
+		top:0px;
+		width:48px;
+		height:32px;
+		font-size:12px;
+		text-align:center;
+		line-height:32px;
+		cursor:pointer;
+		transition:background 0.3s,color 0.3s;
+		-webkit-transition:background 0.3s,color 0.3s;
+		-moz-transition:background 0.3s,color 0.3s;
+		-o-transition:background 0.3s,color 0.3s;
+	}
+	#stairs .stairlist:hover
+	{
+		background:#00A1D6;
+		color:#fff;
+	}
+	#stairs .on
+	{
+		background:#00A1D6;
+		color:#fff;
+	}
+	#stairs .sort
+	{
+		position:absolute;
+		top:482px;
+		left:0px;
+		width:48px;
+		height:38px;
+		padding:8px 0;
+		border:1px solid #e5e9ef;
+		border-radius:0 0 5px 5px;
+		background:#f6f9fa;
+		color:#000;
+		cursor:pointer;
+		transition:background 0.3s,color 0.3s;
+		-webkit-transition:background 0.3s,color 0.3s;
+		-moz-transition:background 0.3s,color 0.3s;
+		-o-transition:background 0.3s,color 0.3s;
+	}
+	#stairs .sort i
+	{
+		display:block;
+		width:24px;
+		height:20px;
+		margin:0 auto;
+		background-image:url(../images/icons.png);
+		background-position:-660px -150px;
+	}
+	#stairs .sort p
+	{
+		width:48px;
+		height:18px;
+		font-size:12px;
+		text-align:center;
+		line-height:18px;
+	}
+	#stairs .sort:hover
+	{
+		background:#00A1D6;
+		color:#fff;
+	}
+	#stairs .sort:hover i
+	{
+		background-position:-724px -150px;
+	}
+	#stairs .conline
+	{
+		position:absolute;
+		top:538px;
+		left:50%;
+		width:30px;
+		height:9px;
+		margin-left:-15px;
+		border-left:1px solid #e5e9ef;
+		border-right:1px solid #e5e9ef;
+	}
+	#stairs .backtop
+	{
+		position:absolute;
+		top:547px;
+		left:0px;
+		width:48px;
+		height:12px;
+		padding:18px 0;
+		border:1px solid #e5e9ef;
+		border-radius:5px;
+		background:#f6f9fa;
+		transition:background 0.3s;
+		-webkit-transition:background 0.3s;
+		-moz-transition:background 0.3s;
+		-o-transition:background 0.3s;
+		cursor:pointer;
+	}
+	#stairs .backtop .icon
+	{
+		width:20px;
+		height:12px;
+		margin:0 auto;
+		background-image:url(../images/icons.png);
+		background-position:-662px -90px;
+	}
+	#stairs .backtop:hover
+	{
+		background:#00A1D6;
+	}
+	#stairs .backtop:hover .icon
+	{
+		background-position:-727px -90px;
+	}
+	#stairs .download
+	{
+		position:absolute;
+		top:595px;
+		left:-15px;
+		width:80px;
+		height:80px;
+	}
+	#stairs .download a
+	{
+		display:block;
+		width:80px;
+		height:80px;
+		background-image:url(../images/app-download.png)
+	}
+	#stairs .download i
+	{
+		position:absolute;
+		top:-20px;
+		left:-110px;
+		width:106px;
+		height:44px;
+		background:url(../images/app-download-tips.png);
+		display:none;
+	}
+	#stairs .download:hover a
+	{
+		animation:move1 0.5s steps(9),move2 0.5s infinite steps(6) 0.5s;
+	}
+	@keyframes move1
+	{
+		from
+		{
+			background-position:0px 0px;
+		}
+		to
+		{
+			background-position:-720px 0px;
+		}
+	}
+	
+	@keyframes move2
+	{
+		from
+		{
+			background-position:-720px 0px;
+		}
+		to
+		{
+			background-position:-1200px 0px;
+		}
+	}
+	
+
